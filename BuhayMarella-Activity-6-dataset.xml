@@ -24,7 +24,7 @@
 ]>
 
 
-<human-trafficking>
+<human-trafficking-cases>
 
 	<datayear> 2016 </datayear>
 	<pub-agency-name agency-type="city"> Independence </pub-agency-name>
@@ -102,5 +102,80 @@
 	</offense-name>
 
 
-</human-trafficking>
+	<datayear> 2019 </datayear>
+	<pub-agency-name agency-type="city"> Fox Crossing </pub-agency-name>
+	<state-name state-abbr="WI"> Wisconsin </state-name>
+	<division-name> East North Central </division-name>
+	<county-name> Winnebago </county-name>
+	<region-name> MidWest </region-name>
+	<offense-name ORI="WI0710900" >Human Traffiking
+		<offense-subname subcat-id="82"> Commercial Sex Acts
+			<actual-counts> 1 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 1 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2018 </datayear>
+	<pub-agency-name agency-type="city"> Metropolitan Nashville Police Department </pub-agency-name>
+	<state-name state-abbr="TN"> Tennessee </state-name>
+	<division-name> East South Central </division-name>
+	<county-name> Davidson </county-name>
+	<region-name> South </region-name>
+	<offense-name ORI="MN0272700" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 3 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 0 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2019 </datayear>
+	<pub-agency-name agency-type="city"> Fayetteville </pub-agency-name>
+	<state-name state-abbr="NC"> North Carolina </state-name>
+	<division-name> South Atlantic </division-name>
+	<county-name> Cumberland </county-name>
+	<region-name> Northeast </region-name>
+	<offense-name ORI="NC0260100" >Human Traffiking
+		<offense-subname subcat-id="81"> Involuntary Servitude
+			<actual-counts> 1 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 0 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2014 </datayear>
+	<pub-agency-name agency-type="city"> Tallahasee </pub-agency-name>
+	<state-name state-abbr="FL"> Florida </state-name>
+	<division-name> South Atlantic </division-name>
+	<county-name> Leon </county-name>
+	<region-name> South </region-name>
+	<offense-name ORI="MN0272700" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 1 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 1 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2014 </datayear>
+	<pub-agency-name agency-type="city"> Clearwater </pub-agency-name>
+	<state-name state-abbr="FL"> Florida </state-name>
+	<division-name> South Atlantic </division-name>
+	<county-name> Pinellas </county-name>
+	<region-name> South </region-name>
+	<offense-name ORI="FL0520300" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 25 </actual-counts>
+			<unfounded-count> 8 </unfounded-count>
+			<cleared-count> 25 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+</human-trafficking-cases>
 
