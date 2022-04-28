@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE human-trafficking [
+<!ELEMENT human-trafficking (datayear, pub-agency-name, state-name, division-name, county-name, region-name, offense-name )>
+<!ELEMENT offense-name (offense-subname)>
+<!ELEMENT offense-subname (actual-counts, unfounded-count, cleared-count, juvenile-count)>
+
+<!ELEMENT datayear (#PCDATA)>
+<!ELEMENT pub-agency-name (#PCDATA)>
+<!ELEMENT state-name (#PCDATA)>
+<!ELEMENT division-name (#PCDATA)>
+<!ELEMENT county-name (#PCDATA)>
+<!ELEMENT region-name (#PCDATA)>
+<!ELEMENT offense-name (#PCDATA)>
+<!ELEMENT offense-subname (#PCDATA)>
+<!ELEMENT actual-counts (#PCDATA)>
+<!ELEMENT unfounded-count (#PCDATA)>
+<!ELEMENT cleared-count (#PCDATA)>
+<!ELEMENT juvenile-count (#PCDATA)>
+
+<!ATTLIST pub-agency-name agency-type CDATA #REQUIRED>
+<!ATTLIST  state-name state-abbr CDATA #REQUIRED>
+<!ATTLIST offense-name ORI CDATA #REQUIRED>
+]>
+
+
+<human-trafficking>
+
+	<datayear> 2016 </datayear>
+	<pub-agency-name agency-type="city"> Independence </pub-agency-name>
+	<state-name state-abbr="MO"> Missouri </state-name>
+	<division-name> West North </division-name>
+	<county-name> Jackson </county-name>
+	<region-name> Mid-West </region-name>
+	<offense-name ORI="MO048060" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 2 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 0 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2020 </datayear>
+	<pub-agency-name agency-type="county"> DeKalb County Police </pub-agency-name>
+	<state-name state-abbr="GA"> Georgia </state-name>
+	<division-name> South Atlantic </division-name>
+	<county-name> Dekalb </county-name>
+	<region-name> South </region-name>
+	<offense-name ORI="GA0440200" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 1 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 0 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2017 </datayear>
+	<pub-agency-name agency-type="city"> Bluffton </pub-agency-name>
+	<state-name state-abbr="OH"> Ohio </state-name>
+	<division-name> East North Central </division-name>
+	<county-name> Hancock; Allen </county-name>
+	<region-name> Mid-West </region-name>
+	<offense-name ORI="OH0020100" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 1 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 0 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2018 </datayear>
+	<pub-agency-name agency-type="city"> Las Vegas Metropolitan Police </pub-agency-name>
+	<state-name state-abbr="NV"> Nevada </state-name>
+	<division-name> Mountain </division-name>
+	<county-name> CLark </county-name>
+	<region-name> West </region-name>
+	<offense-name ORI="NV0020100" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 24 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 6 </cleared-count>
+			<juvenile-count> 1 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+	<datayear> 2017 </datayear>
+	<pub-agency-name agency-type="city"> Maple Groove </pub-agency-name>
+	<state-name state-abbr="MN"> Minnesota </state-name>
+	<division-name> West North Central </division-name>
+	<county-name> Hennepin </county-name>
+	<region-name> MidWest </region-name>
+	<offense-name ORI="MN0272700" >Human Traffiking
+		<offense-subname subcat-id="81"> Commercial Sex Acts
+			<actual-counts> 11 </actual-counts>
+			<unfounded-count> 0 </unfounded-count>
+			<cleared-count> 11 </cleared-count>
+			<juvenile-count> 0 </juvenile-count>
+		</offense-subname>
+	</offense-name>
+
+
+</human-trafficking>
+
